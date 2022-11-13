@@ -3,30 +3,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Veranika Sauchuk Portfolio">
     <meta name="author" content="">
     <title>Veranika Sauchuk Portfolio</title>
     <!-- Css -->
     <link href="css/bootstrap.css" rel="stylesheet">
-	  <link href="css/style.css" rel="stylesheet">
-</head>
+	<link href="css/style.css" rel="stylesheet">
+	
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'DRACO';
+		}
+	</style>
+
+  </head>
   <body>
 
   
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
-			<div class="navbar-header">
-				<div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">	
-					<span class="bar1"></span>
-					<span class="bar2"></span>
-					<span class="bar3"></span>
-			  </div>
-				<a class="navbar-brand top" href="#">
-					<img src="img/logo.png" alt="">
-				</a>
-
-			</div>
-
 			<div class="collapse navbar-collapse" id="main-menu">
 			   <ul class="nav navbar-nav navbar-right">
 				<li><a href="#about">About</a></li>
@@ -39,23 +41,19 @@
   
   <section class="about" id="about">
 		<div class="container about">
-      <div class="row">
+      		<div class="row">
 				<div class="col-lg-7">
 					<p class="text-center">Veranika Sauchuk Portfolio</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-7">
 					<p class="text-center">
-						Junior Business Analyst
+						Business Analyst
 					</p>
-					<br>
 				</div>
 			</div>
-      <div class="row">
+      		<div class="row">
 				<div class="col-lg-7">
+					<h1>Education</h1>
 					<p class="text-center">
-						Education: Belarusian State Medical University
+						Belarusian State Medical University
 					</p>
 					<br>
 				</div>
@@ -67,9 +65,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-          <p class="text-center">
-						Project Nova Aurora at IT-Academy Educational Center for Programming and High Tech (2022)
-					</p>
+					<h1>Work<br>Experiences</h1>
+					<ul class="work-list">
+						<li>2014-2015</li>
+						<li><a href="#">Nova Aurora at IT-Academy Educational Center for Programming and High Tech (2022)</a></li>
+						<li>Business Analyst (Student)</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -77,18 +78,22 @@
 
 	<section class="certificate" id="certificates">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-7">
-          <p class="text-center">
-						Course “Business analysis for IT” (24 May - 20 September, 2022), IT-Academy Educational Center for Programming and High Tech
-					</p>
-					<iframe src="./Veranika%20Sauchuk%20Certificate.pdf" width="100%" height="500px">
-          </iframe>
-				</div>
-			</div>
+			<h1>Certificates</h1>
+			<ul class="award-list list-flat">
+				<li>24 May - 20 September, 2022</li>
+				<li>Course “Business analysis for IT” (), IT-Academy Educational Center for Programming and High Tech</li>
+				<li>
+					<div class="row">
+						<div class="col-lg-7">
+							<p class="text-center">
+								<iframe src="./Veranika%20Sauchuk%20Certificate.pdf" width="100%" height="500px"></iframe>
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</section>
-
 
 	<!-- Copyright -->
 	<footer>
@@ -105,7 +110,9 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/modernizr.js"></script>
 	<script src="js/script.js"></script>
-	
-
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
   </body>
 </html>
